@@ -128,3 +128,57 @@ ai-stock-market-report/
 │   └── spy_graph.png
 ├── requirements.txt
 └── README.md
+```
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ramonrodriguezc23/ai-stock-market-report.git
+cd ai-stock-market-report
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch JupyterLab
+
+```bash
+jupyter lab
+```
+
+### 4. Open the notebook
+
+Run the notebook cells in order to:
+- fetch live stock universes
+- download market data
+- compute technical indicators
+- train the model
+- score live candidates
+- generate the HTML report
+
+## Limitations
+
+- Data sources such as Yahoo Finance and Wikipedia may change or fail
+- Market behavior changes over time, so model performance may degrade
+- The project uses free public data rather than institutional-grade feeds
+- Earnings calendar data may occasionally be incomplete
+- This is not a production trading system
+
+## What This Project Demonstrates
+
+This project highlights my ability to:
+- build an end-to-end Python analytics workflow
+- work with live external data sources
+- engineer business-relevant features
+- train and evaluate ML models
+- communicate outputs through polished reporting
+- structure a project as a portfolio-ready deliverable
+
+## Disclaimer
+
+This project is for educational and portfolio purposes only. It is not financial advice, investment advice, or a recommendation to buy or sell securities.
